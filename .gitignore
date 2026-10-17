@@ -1,0 +1,28 @@
+﻿# API Keys and Secrets
+.env
+.env.*
+!.env.example
+
+# Python Environment
+.venv/
+venv/
+
+# Python Cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Local Reports
+reports_data/
+
+# Streamlit Secrets
+.streamlit/secrets.toml
+
+# Editor Files
+.vscode/
+.idea/
+
+# Temporary Files
+*.log
+*.tmp
+.pytest_cache/
